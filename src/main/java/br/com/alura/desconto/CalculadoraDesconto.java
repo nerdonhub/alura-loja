@@ -1,4 +1,4 @@
-package br.com.alura.imposto;
+package br.com.alura.desconto;
 
 import br.com.alura.orcamento.Orcamento;
 
