@@ -1,6 +1,6 @@
-package br.com.alura.desconto;
+package br.com.alura.loja.desconto;
 
-import br.com.alura.orcamento.Orcamento;
+import br.com.alura.loja.orcamento.Orcamento;
 
 import java.math.BigDecimal;
 
@@ -10,7 +10,7 @@ public abstract class Desconto {
     protected Desconto(Desconto proximo) {
         this.proximo = proximo;
     }
-    public BigDecimal calcular(Orcamento orcamento) {
+    public BigDecimal calcular(Orcamento orcamento){
         if (deveAplicar(orcamento)) {
             return efetuarCalculo(orcamento);
         } return proximo.calcular(orcamento);

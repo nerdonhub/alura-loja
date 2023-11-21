@@ -1,6 +1,6 @@
-package br.com.alura.desconto;
+package br.com.alura.loja.desconto;
 
-import br.com.alura.orcamento.Orcamento;
+import br.com.alura.loja.orcamento.Orcamento;
 
 import java.math.BigDecimal;
 
