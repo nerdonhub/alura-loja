@@ -28,6 +28,9 @@ public class Orcamento {
     public void finalizar() {
         this.situacao.finalizar(this);
     }
+    public boolean isFinalizado() {
+        return situacao instanceof Finalizado;
+    }
 
     // GETTERS
     public int getQuantidadeItens() {
